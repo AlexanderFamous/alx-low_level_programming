@@ -1,6 +1,6 @@
 #include "main.h"
-/*
- * main - cheack the code
+/**
+ * main - Entry point
  *
  * Return: 0 on success
  */
