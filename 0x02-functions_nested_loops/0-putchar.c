@@ -11,14 +11,14 @@ int main(void)
 {
 
       char c;
-     _putchar("%d_", c);
-     _putchar("%dp", c);
-     _putchar("%du", c);
-     _putchar("%dt", c);
-     _putchar("%dc", c);
-     _putchar("%dh", c);
-     _putchar("%da", c);
-     _putchar("%dr", c);
+     _putchar("_");
+     _putchar("p");
+     _putchar("u");
+     _putchar("t");
+     _putchar("c");
+     _putchar("h");
+     _putchar("a");
+     _putchar("r");
      _putchar('\n');
 
 return (0);
