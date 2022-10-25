@@ -1,4 +1,4 @@
-#include "main.sh"
+#include "main.h"
 
 /**
  *_atoi - Entry point
