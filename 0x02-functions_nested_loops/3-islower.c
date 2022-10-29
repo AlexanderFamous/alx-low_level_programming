@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * _islower - a function that returns a value if its a lowercase
- *
- * Return : 1 if int c is lowercase, 0 if otherwise
+ *@c : Int c
+ *Return: 1 if int c is lowercase, 0 if otherwise
  */
 
 int _islower(int c)
