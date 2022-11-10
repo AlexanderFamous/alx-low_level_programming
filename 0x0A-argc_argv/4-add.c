@@ -29,4 +29,5 @@ return (1);
 sum = sum + atoi(argv[num]);
 }
 printf("%d\n", sum);
+return (0);
 }
