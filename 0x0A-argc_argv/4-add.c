@@ -16,7 +16,7 @@ for (num = 1 ; num < argc ; num++)
 for (digit = 0 ; argv[num][digit]; digit++)
 {
 
-if (argv[num][digit] < '0') 
+if (argv[num][digit] < '0')
 {
 printf("0\n");
 }
