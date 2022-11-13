@@ -10,28 +10,26 @@
 
 char *_strdup(char *str)
 {
-int str_size;
-static char *dup;
-char *dup_offset;
+int i, len = 0;
+char *dup;
 
 if (str == NULL)
 	return (NULL);
 
+/* Tranverse the str arr */
+for (i = 0; str[i]; i++)
+	len++;
 /*Allocates memory for copy */
-str_size = _strlen(str);
-dup = (char *)malloc(sizeof(char) * str_size + 1);
+dup = malloc(sizeof(char) * (len + 1));
 if (dup == NULL)
-return ((char *)NULL);
+return (NULL);
 
-/*cOPY sTRING */
-dup_offset = dup;
-while (*str)
+/*cOPY sTRING from duplicate to index */
+for (i = 0; str[i]; i++)
 {
-*dup_offset = *str;
-dup_offset++;
-str++;
+dup[i] = str[i];
 }
-*dup_offset = '\0';
+dup[len] = '\0';
 
 return (dup);
 }
