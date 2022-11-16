@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include "3-function_like_macro.h"
+#include "3-function_like_macro.h"
+
 /**
  * 2-main - a function that prints the name of the file it was
  * compiled from
