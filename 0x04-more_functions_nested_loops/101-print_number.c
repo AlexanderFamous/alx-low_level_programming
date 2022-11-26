@@ -1,20 +1,21 @@
 #include "main.h"
+/**
+ * print_number - a function that prints a non long integer using _putchar
+ * @n: accepts one paramater
+ *
+ * Return: 0 Always.
+ */
+
 
 void print_number(int n)
 {
-/* if number is smaller than 0, put a = sign and change number to positive */
 if (n < 0)
 {
 _putchar('-');
 n = -n;
 
 }
-
-/* Remove the last digit and recur */
-if (n/10)
-print_number(n/10);
-
-/* Print the last digit */
-_putchar(n%10 + '0');
-
+if (n / 10)
+print_number(n / 10);
+_putchar(n % 10 + '0');
 }
