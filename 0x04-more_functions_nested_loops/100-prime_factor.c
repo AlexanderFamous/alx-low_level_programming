@@ -1,5 +1,4 @@
 #include "main.h"
-#include <math.h>
 /**
  * main - A PROGRAM TO FIND THE LARGEST PRIME FACTOR OF A NUMBER
  *
