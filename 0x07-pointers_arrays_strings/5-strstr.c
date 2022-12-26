@@ -20,7 +20,7 @@ if (haystack[i] == needle[0])
 {
 for (j = 1; needle[j] != '\0'; j++)
 {
-if(haystack[i + j] != needle[j])
+if (haystack[i + j] !=  needle[j])
 {
 
 break;
@@ -31,7 +31,7 @@ break;
 }
 if (needle[j] == '\0')
 {
-return (haystack  + i );
+return (haystack  + i);
 }
 }
 
