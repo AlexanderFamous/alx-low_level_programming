@@ -31,7 +31,7 @@ break;
 }
 if (needle[j] == '\0')
 {
-return (haystack  + i);
+return (&haystack[i]);
 }
 }
 
